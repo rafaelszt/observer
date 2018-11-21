@@ -1,5 +1,5 @@
-# observer
-Detecção de entrada não autoizada, utilizando processamento de faces em vídeo.
+# Observer
+Detecção de entrada não autorizada, utilizando processamento de faces em vídeo.
 Projeto desenvolvido por Rafael Teixeira, para o Trabalho de Conclusão de Curso da Ciência da Computação na PUCPR.
 
 # Instalação
