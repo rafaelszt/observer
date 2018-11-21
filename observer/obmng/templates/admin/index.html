@@ -1,0 +1,22 @@
+{% extends 'admin/master.html' %}
+{% block head_css %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', _external=True) }}" ></link>
+{% endblock %}
+{% block body %}
+{{ super() }}
+<div class="container">
+    <div class="cameras">
+        <div class="row">
+            <div class="camera col-sm-3 col-md-offset-1">
+                <img src="{{ url_for('videos.video_feed_1') }}">
+                <img src="{{ url_for('videos.video_feed_3') }}">
+            </div>
+            <div class="camera col-sm-3">
+                <img src="{{ url_for('videos.video_feed_2') }}">
+                <img src="{{ url_for('videos.video_feed_4') }}">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
