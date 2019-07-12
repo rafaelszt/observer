@@ -39,7 +39,7 @@ numpy==1.14.5
 opencv-python==3.4.2.17
 passlib==1.7.1
 Pillow==5.2.0
-protobuf==3.6.1
+protobuf==3.9.0
 psutil==5.4.7
 pycparser==2.19
 pylint==2.1.1
